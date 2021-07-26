@@ -11,7 +11,7 @@ const TodoList = ({todoList, handleCheck, handleRemove}) => {
                 </div>
                ) 
             })}
-            <button className="delete-button" onClick={handleRemove}>Clear done tasks</button>
+            <button className="delete-button" onClick={handleRemove}>Delete completed tasks</button>
         </div>
     )
 }

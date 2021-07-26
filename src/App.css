@@ -2,3 +2,7 @@
   text-decoration: line-through;
   color:rgb(173, 173, 173)
 }
+
+.todo, .todo-done {
+  padding: 5px;
+}

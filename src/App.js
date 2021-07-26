@@ -7,9 +7,7 @@ import TodoList from './TodoList';
 function App() {
   
   const [todoList, setTodoList] = useState([
-    {id: 1, task: "Chego-to tamushki", done: false},
-    {id: 2, task: "A vot tut escho cto-to", done: false},
-    {id: 3, task: "Nu i escho cto-to", done: true}
+    {id: 1, task: "Добавить еще одну задачу", done: false},
   ]);
 
   const handleCheck = (id) => {
